@@ -258,6 +258,7 @@
             this.btnImg.TabIndex = 125;
             this.btnImg.Text = "+";
             this.btnImg.UseVisualStyleBackColor = true;
+            this.btnImg.Click += new System.EventHandler(this.btnImg_Click);
             // 
             // FrmProdutos
             // 

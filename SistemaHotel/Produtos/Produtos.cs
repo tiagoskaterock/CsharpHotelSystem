@@ -23,7 +23,7 @@ namespace SistemaHotel {
             txtNome.Focus();
             btnImg.Enabled = true;
         }
-        
+
         // desabilita os campos
         private void DesabilitarCampos() {
             txtNome.Enabled = false;
@@ -168,6 +168,11 @@ namespace SistemaHotel {
                 txtNome.Enabled = false;
                 LimparCampos();
             }
+        }
+
+        private void btnImg_Click(object sender, EventArgs e) {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "";
         }
     }
 }
