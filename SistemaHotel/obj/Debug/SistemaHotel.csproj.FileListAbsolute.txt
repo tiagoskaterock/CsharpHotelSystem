@@ -55,3 +55,5 @@ C:\Users\A\source\repos\SistemaHotelVersões\SistemaHotel\SistemaHotel\obj\Debug
 C:\Users\A\source\repos\SistemaHotelVersões\SistemaHotel\SistemaHotel\obj\Debug\SistemaHotel.exe
 C:\Users\A\source\repos\SistemaHotelVersões\SistemaHotel\SistemaHotel\obj\Debug\SistemaHotel.pdb
 C:\Users\A\source\repos\SistemaHotelVersões\SistemaHotel\SistemaHotel\obj\Debug\SistemaHotel.FrmProdutos.resources
+C:\Users\A\source\repos\SistemaHotel\SistemaHotel\obj\Debug\SistemaHotel.Cadastros.FrmCargo.resources
+C:\Users\A\source\repos\SistemaHotel\SistemaHotel\obj\Debug\SistemaHotel.FrmProdutos.resources
