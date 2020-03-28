@@ -173,8 +173,13 @@ namespace SistemaHotel {
         private void btnImg_Click(object sender, EventArgs e) {
             OpenFileDialog dialog = new OpenFileDialog();
             dialog.Filter = "Imagens(*.jpg, *.png)|*.jpg;*.png|Todos os arquivos(*.*)|*.*";
+            // recupera o endereço da imagem escolhida no FileDialog
             if (dialog.ShowDialog() == DialogResult.OK) {
+                string foto = dialog.FileName.ToString();
+                // MessageBox.Show(foto);
 
+                // insere a imagem recuperada no local adequado
+                img.ImageLocation = foto;
             }
         }
     }
