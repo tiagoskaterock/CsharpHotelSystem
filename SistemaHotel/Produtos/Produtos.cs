@@ -172,7 +172,7 @@ namespace SistemaHotel {
 
         private void btnImg_Click(object sender, EventArgs e) {
             OpenFileDialog dialog = new OpenFileDialog();
-            dialog.Filter = "Arquivo JPG(*.jpg)|*jpg";
+            dialog.Filter = "Imagens(*.jpg, *.png)|*.jpg;*.png|Todos os arquivos(*.*)|*.*";
             if (dialog.ShowDialog() == DialogResult.OK) {
 
             }
